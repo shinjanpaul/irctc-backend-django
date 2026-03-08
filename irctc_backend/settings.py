@@ -160,3 +160,5 @@ CORS_ALLOW_ALL_ORIGINS = True
 import os
 RAZORPAY_KEY_ID = 'rzp_test_2EpPSCTb8XHFCk'
 RAZORPAY_KEY_SECRET = 'jHxKaISFIwGZ1byoWqtzldAB'
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
