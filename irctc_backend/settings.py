@@ -158,7 +158,7 @@ MONGO_URI = os.getenv("MONGO_URI")
 MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "irctc_logs")
 CORS_ALLOW_ALL_ORIGINS = True
 import os
-RAZORPAY_KEY_ID = 'rzp_test_2EpPSCTb8XHFCk'
-RAZORPAY_KEY_SECRET = 'jHxKaISFIwGZ1byoWqtzldAB'
+RAZORPAY_KEY_ID = os.getenv("RAZORPAY_KEY_ID")
+RAZORPAY_KEY_SECRET = os.getenv("RAZORPAY_KEY_SECRET")
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
