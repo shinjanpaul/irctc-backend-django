@@ -48,10 +48,12 @@ INSTALLED_APPS = [
     'trains',
     'bookings',
     'logs',
+    "corsheaders",
 
 ]
 
 MIDDLEWARE = [
+    "corsheaders.middleware.CorsMiddleware",
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -154,4 +156,7 @@ SIMPLE_JWT = {
 }
 MONGO_URI = os.getenv("MONGO_URI")
 MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "irctc_logs")
-
+CORS_ALLOW_ALL_ORIGINS = True
+import os
+RAZORPAY_KEY_ID = 'rzp_test_2EpPSCTb8XHFCk'
+RAZORPAY_KEY_SECRET = 'jHxKaISFIwGZ1byoWqtzldAB'
