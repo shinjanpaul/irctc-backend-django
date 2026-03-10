@@ -1,4 +1,4 @@
-# 🚂 IRCTC Mini Backend System
+# 🚂 RailConnect – IRCTC Inspired Reservation System
 
 A simplified backend system inspired by IRCTC, built using **Django** and **Django REST Framework**. The project supports user authentication, train search, seat booking with Razorpay payments, and analytics.
 
