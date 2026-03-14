@@ -71,7 +71,7 @@ export default function Register() {
           <label className="form-label">Full Name</label>
           <input
             className="form-input"
-            placeholder="Rahul Sharma"
+            placeholder="Shinjan Paul"
             value={name}
             onChange={(e) => setName(e.target.value)}
             autoComplete="name"
@@ -83,7 +83,7 @@ export default function Register() {
           <input
             className="form-input"
             type="email"
-            placeholder="you@example.com"
+            placeholder="shinjan@example.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             autoComplete="email"
